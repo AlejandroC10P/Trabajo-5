@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDesktopPane" name="jDesktopPane1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Calcular Notas"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                      <Component id="btnCalcular" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                      <Component id="btnBorrar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="labelNota1" alignment="0" pref="55" max="32767" attributes="0"/>
+                                  <Component id="labelNota2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelNota3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelNota4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelNota5" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtNota1" pref="180" max="32767" attributes="0"/>
+                                  <Component id="txtNota2" max="32767" attributes="0"/>
+                                  <Component id="txtNota3" max="32767" attributes="0"/>
+                                  <Component id="txtNota4" max="32767" attributes="0"/>
+                                  <Component id="txtNota5" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="labelValorMenor" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelValorMayor" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelDesviacionEstandar" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="labelPromedio" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtPromedio" max="32767" attributes="0"/>
+                                  <Component id="txtDesviacion" max="32767" attributes="0"/>
+                                  <Component id="txtValorMayor" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="txtValorMenor" alignment="0" pref="155" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="47" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelNota1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNota1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelNota2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNota2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelNota3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNota3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelNota4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNota4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelNota5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNota5" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnCalcular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBorrar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelPromedio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtPromedio" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelDesviacionEstandar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtDesviacion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelValorMayor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtValorMayor" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelValorMenor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtValorMenor" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelNota1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nota 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNota2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nota 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNota3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nota 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNota4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nota 4:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelNota5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nota 5:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNota1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNota1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNota2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNota3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNota4">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNota4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNota5">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCalcular">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalcularActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBorrar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Borrar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBorrarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelPromedio">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Promedio = "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelDesviacionEstandar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desviacion estandar = "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelValorMayor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor mayor ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelValorMenor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valor menor ="/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPromedio">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDesviacion">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDesviacionActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValorMayor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtValorMenor">
+    </Component>
+  </SubComponents>
+</Form>
